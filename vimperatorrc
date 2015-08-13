@@ -1,0 +1,24 @@
+" vim: set ft=vimperator:
+
+"private setting
+map <Left> gT
+map <Right> gt
+map <C-l> gt
+map <C-h> gT
+map <C-c> :echo<Space>Yank!<Return>Y
+map j 5<C-e>
+map k 5<C-y>
+map <A-Up> :set gui=none,tabs<CR>
+map <A-Down> :set gui=tabs,bookmarks,navigation<CR>
+set complete=slS
+set gui=none,tabs
+set history=50
+set hlsearch
+set maxitems=10
+set messages=20
+set "nextpattern=^次(へ|の|ペ),^続き,\\bnext\\b,^>$,^(>>|≫)$,^(>|≫),(>|≫)$,\\bmore\\b"
+set "previouspattern=^前(へ|の|ペ),^戻め,\\bprev|previous\\b,^<$,^(<<|≪)$,^(<|≪),(<|≪)$"
+"set "runtimepath=C:\\Users\\mya\\vimperator"
+set titlestring=Firefox
+set visualbell
+set noignorecase
